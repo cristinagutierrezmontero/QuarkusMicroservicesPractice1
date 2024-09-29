@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "771554c4-31bc-421b-86fa-accff75da339",
+		"name": "Service_two",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34816744"
+	},
+	"item": [
+		{
+			"name": "getDelay",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/service-two",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"service-two"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postError",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/service-two/error",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"service-two",
+						"error"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postSuccess",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/service-two/success",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"service-two",
+						"success"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
